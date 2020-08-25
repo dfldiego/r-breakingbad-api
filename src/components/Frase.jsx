@@ -3,9 +3,9 @@ import styled from '@emotion/styled';
 
 const ContenedorFrase = styled.div`
     padding: 3rem;
-    border-radius: --5rem;
+    border-radius: -5rem;
     background-color: #fff;
-    max-width: 800px;
+    max-width:900px;
     
     @media (min-width: 992px) {
         margin-top: 10rem;
@@ -13,6 +13,7 @@ const ContenedorFrase = styled.div`
 
     h1 {
         font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
         text-align: center;
         position: relative;
         padding-left: 4rem;
@@ -28,7 +29,7 @@ const ContenedorFrase = styled.div`
 
     p {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1.4rem;
+        font-size: 1.0rem;
         font-weight: bold;
         text-align: right;
         color: #666;
